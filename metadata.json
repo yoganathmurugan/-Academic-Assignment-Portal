@@ -1,0 +1,5 @@
+{
+  "name": "AKAZA",
+  "description": "An assignment submission and management portal for students and teachers of Agni College of Technology. Teachers can create assignments with deadlines, and students can view and submit their work.",
+  "requestFramePermissions": []
+}
