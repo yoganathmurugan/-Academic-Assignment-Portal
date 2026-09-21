@@ -221,23 +221,3 @@ Both features fall back gracefully to mock responses when the API key is unavail
 ```ts
 { id, title, message, timestamp: ISO string }
 ```
-
----
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/your-feature-name`
-3. Commit your changes: `git commit -m "feat: add your feature"`
-4. Push to the branch: `git push origin feature/your-feature-name`
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is private and intended for use by Agni College of Technology.
-
----
-
-<p align="center">Built with ❤️ for ACT students and faculty</p>
