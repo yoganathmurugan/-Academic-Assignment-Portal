@@ -1,6 +1,6 @@
 # 🎓 AKAZA — Academic Assignment Portal
 
-> A role-based assignment management and submission portal built for **Agni College of Technology (ACT)**, supporting all engineering departments across every academic year and semester.
+A role-based assignment management and submission portal built for **Agni College of Technology (ACT)**, supporting all engineering departments across every academic year and semester.
 
 ## Overview
 
@@ -86,8 +86,6 @@ AKAZA is a full-featured academic portal that bridges the gap between teachers a
 └── services/
     └── geminiService.ts             # Google Gemini API integration (ideas + grading)
 ```
-
----
 
 ## 🚀 Getting Started
 
