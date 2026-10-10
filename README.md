@@ -6,8 +6,6 @@ A role-based assignment management and submission portal built for **Agni Colleg
 
 AKAZA is a full-featured academic portal that bridges the gap between teachers and students for assignment lifecycle management. Teachers can create and manage assignments per subject, view and grade student submissions, and leverage AI to suggest assignment ideas. Students can browse their assignments by semester, submit work directly through the portal, and receive deadline notifications — all within a clean, responsive UI.
 
----
-
 ## ✨ Features
 
 ### 👩‍🏫 Teacher
@@ -155,8 +153,6 @@ On the login screen, select your:
 
 > Any valid combination of role + year + department will work — the app creates a "Demo" user on the fly if no exact mock match exists.
 
----
-
 ## 🏛 Supported Departments
 
 | Code | Full Name |
@@ -169,8 +165,6 @@ On the login screen, select your:
 | MCT | Mechatronics Engineering |
 
 Subjects are pre-loaded for all 8 semesters across all 6 departments, aligned with Anna University's standard syllabus.
-
----
 
 ## 🤖 AI Features
 
@@ -189,7 +183,6 @@ Powered by **Google Gemini 2.5 Flash** via the `@google/genai` SDK.
 
 Both features fall back gracefully to mock responses when the API key is unavailable.
 
----
 
 ## 📐 Data Models
 
@@ -213,8 +206,6 @@ Both features fall back gracefully to mock responses when the API key is unavail
   marks?: number,
   status: 'Submitted' | 'Graded' | 'Submitted Late'
 }
-```
-
 ### `Notification`
 ```ts
 { id, title, message, timestamp: ISO string }
